@@ -1,5 +1,10 @@
 # ADS - Audio Data Storage
 
-currently it can generate `WAV` files using `generatewav.py` file and can decode bit at a rate of `10ms per bit`
+Run `pip install -r requirements.txt` to install the required libraries
 
-still need to implement error detection methods such as CRC
+then run `generatewav.py` file and enter information to generate a `.wav` file. 
+Run the `audio.ipynb` file in jupyter notebook to decode the data.
+
+each frequency tone plays for `10ms`
+
+I still need to implement error detection methods such as parity bits or CRC.
